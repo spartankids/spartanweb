@@ -72,7 +72,7 @@ Years </span>
 <div className="bgpurple">
   <div className="grid  md:grid-cols-2 p-12 md:p-24">
  <div className="mx-0">
-<p className="text-6xl  text-center">Our Learning style</p> 
+<p className="text-6xl md:text-left sm:text-center">Our Learning style</p> 
 <p>
 Our school gives its pupils the opportunity not only to develop themselves intellectually, aesthetically and physically, but also to find their direction in life, to receive a quality education.
 </p>
@@ -92,23 +92,174 @@ Every children have their own love language, we all have our unique learning sty
 <div className="my-24 mx-auto container">
     <div className="grid  md:grid-cols-2 p-12 md:px-24">
       <div>
-        <h1 className="text-4xl font-bold">Our Mission</h1>
+        <h1 className="text-4xl font-bold text-purple-800">Our Mission</h1>
         <p className="grid md:grid-cols-2 sm:grid-col">
         Find an individual approach to each child in accordance with their personal needs and their level of knowledge, cultural characteristics and interests of their families.
         </p>
         <div className="mt-5">
-        <button class="bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 border-b-4 bg-yellow-500 hover:bg-yellow-300 rounded">
+        <button class="bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 border-b-4 bg-indigo-400 hover:bg-indigo-300 rounded">
 MORE DETAILS</button>
 </div>
       </div>
       <div>
-        hello
+        <div className="shadow-xl bg-yellow-500">
+      <img className="w-full h-auto -ml-2 -pb-5" src="/images/mission.jpg" alt="Sunset in the mountains" />
+      </div>
       </div>
     </div>
 </div>
 
+<div class="py-12 bg-white">
+  <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="lg:text-center">
+      <h3 class="text-purple-800 mt-1 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+      What Make Us Different
+      </h3>
+      <p class="mt-4 max-w-2xl text-xl leading-7  lg:mx-auto">
+      Our unique principles, pro-active learning system and team values are fundamental in delivering exceptional success for our students.      </p>
+    </div>
 
+    <div class="mt-10">
+      <ul class="md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+        <li>
+          <div class="flex">
+            <div class="flex-shrink-0">
+              <div class="flex items-center justify-center h-32 w-32">
+              <img className="" src="/images/smile.svg" alt="smile" />
+              </div>
+            </div>
+            <div class="ml-4">
+              <h4 class="text-lg leading-6 font-medium text-gray-900">Happy Environment</h4>
+              <p class="mt-2 text-base leading-6 ">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="mt-10 md:mt-0">
+          <div class="flex">
+            <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-32 w-32">
+              <img className="" src="/images/glove.svg" alt="glove" />
+              </div>
+            </div>
+            <div class="ml-4">
+              <h4 class="text-lg leading-6 font-medium text-gray-900">Hygiene</h4>
+              <p class="mt-2 text-base leading-6 ">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="mt-10 md:mt-0">
+          <div class="flex">
+            <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-32 w-32">
+              <img className="" src="/images/cctv.svg" alt="cctv" />
+              </div>
+            </div>
+            <div class="ml-4">
+              <h4 class="text-lg leading-6 font-medium text-gray-900">Safety & Security</h4>
+              <p class="mt-2 text-base leading-6 text-gray-500">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="mt-10 md:mt-0">
+          <div class="flex">
+            <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-32 w-32">
+              <img className="" src="/images/playground.svg" alt="playground" />
+              </div>
+            </div>
+            <div class="ml-4">
+              <h4 class="text-lg leading-6 font-medium text-gray-900">Play Area</h4>
+              <p class="mt-2 text-base leading-6 text-gray-500">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="mt-10 md:mt-0">
+          <div class="flex">
+            <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-32 w-32">
+              <img className="" src="/images/blackboard.svg" alt="blackboard" />
+              </div>
+            </div>
+            <div class="ml-4">
+              <h4 class="text-lg leading-6 font-medium text-gray-900">Clean campus</h4>
+              <p class="mt-2 text-base leading-6 text-gray-500">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="mt-10 md:mt-0">
+          <div class="flex">
+            <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-32 w-32">
+              <img className="" src="/images/vocabulary.svg" alt="audiovisual" />
+              </div>
+            </div>
+            <div class="ml-4">
+              <h4 class="text-lg leading-6 font-medium text-gray-900">Audio & Visual Classroom</h4>
+              <p class="mt-2 text-base leading-6 text-gray-500">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="mt-10 md:mt-0">
+          <div class="flex">
+            <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-32 w-32">
+              <img className="" src="/images/hydro.svg" alt="hydro" />
+              </div>
+            </div>
+            <div class="ml-4">
+              <h4 class="text-lg leading-6 font-medium text-gray-900">Purified water</h4>
+              <p class="mt-2 text-base leading-6 text-gray-500">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+        </li>
+        <li class="mt-10 md:mt-0">
+          <div class="flex">
+            <div class="flex-shrink-0">
+            <div class="flex items-center justify-center h-32 w-32">
+              <img className="" src="/images/air-conditioner.svg" alt="airconditioner" />
+              </div>
+            </div>
+            <div class="ml-4">
+              <h4 class="text-lg leading-6 font-medium text-gray-900">Air Conditioned Classroom</h4>
+              <p class="mt-2 text-base leading-6 text-gray-500">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
+<div class="bg-gray-50">
+  <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+    <h2 class="text-3xl leading-9 text-indigo-600 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
+      Enroll your child with us.
+    </h2>
+    <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0 float-left">
+      <div class="inline-flex rounded-md shadow">
+        <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+          GET IN TOUCH
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
