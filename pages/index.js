@@ -70,14 +70,27 @@ Years </span>
   <img src="/images/home_purple_strip.png"/>
 </div>
 <div className="bgpurple">
-  <div className=" container mx-auto">
-  hello
-
+  <div className="grid  md:grid-cols-2 p-12 md:p-24">
+ <div className="mx-0">
+<p className="text-6xl  text-center">Our Learning style</p> 
+<p>
+Find an individual approach to each child in accordance with their personal needs and their level of knowledge, cultural characteristics and interests of their families.
+</p>
+</div>
+<div className="text-xl mt-6">
+Every children have their own love language, we all have our unique learning style. This learning style
+          continue with us into into adulthood.there is no right or wrong way to learning styles. we should strive to
+          help children to find their own learning style. in spartan we reviewed different learning style that you will
+          hear within education system.</div>
   </div>
 
 </div>
 <div>
   <img src="/images/home_purple_strip_bottom.png"/>
+</div>
+
+<div className="my-24 container">
+
 </div>
 
       <footer className={styles.footer}>
