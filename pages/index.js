@@ -74,7 +74,7 @@ Years </span>
  <div className="mx-0">
 <p className="text-6xl  text-center">Our Learning style</p> 
 <p>
-Find an individual approach to each child in accordance with their personal needs and their level of knowledge, cultural characteristics and interests of their families.
+Our school gives its pupils the opportunity not only to develop themselves intellectually, aesthetically and physically, but also to find their direction in life, to receive a quality education.
 </p>
 </div>
 <div className="text-xl mt-6">
@@ -89,9 +89,25 @@ Every children have their own love language, we all have our unique learning sty
   <img src="/images/home_purple_strip_bottom.png"/>
 </div>
 
-<div className="my-24 container">
-
+<div className="my-24 mx-auto container">
+    <div className="grid  md:grid-cols-2 p-12 md:px-24">
+      <div>
+        <h1 className="text-4xl font-bold">Our Mission</h1>
+        <p className="grid md:grid-cols-2 sm:grid-col">
+        Find an individual approach to each child in accordance with their personal needs and their level of knowledge, cultural characteristics and interests of their families.
+        </p>
+        <div className="mt-5">
+        <button class="bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 border-b-4 bg-yellow-500 hover:bg-yellow-300 rounded">
+MORE DETAILS</button>
 </div>
+      </div>
+      <div>
+        hello
+      </div>
+    </div>
+</div>
+
+
 
       <footer className={styles.footer}>
         <a
