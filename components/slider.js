@@ -22,9 +22,11 @@ export default function Slider() {
           <h1 className=" font-bold text-5xl mb-2 text-purple-900">
                   Learn. Share. Laugh. Grow.
                 </h1>
-                <p className="antialiased sm:subpixel-antialiased md:antialiased lg:subpixel-antialiased xl:antialiased text-lg">we strive to create an environment that helps childrens to learn and grow
+                <p className="antialiased  text-gray-500 sm:subpixel-antialiased md:antialiased lg:subpixel-antialiased xl:antialiased text-lg">we strive to create an environment that helps childrens to learn and grow
                   in the perfect launchpad to explore their creativity, learn more about the world around them and
                   develop skills that they will use throughout their life.</p>
+                  <button class="mt-5 bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 border-b-4 bg-indigo-400 hover:bg-indigo-300 rounded">
+MORE DETAILS</button>
           </div>
           <div className="flex-auto slide-image">
             <img className="float-right" src="/images/slider1.png" alt="spartankid"/>
@@ -35,9 +37,11 @@ export default function Slider() {
           <h1 className=" font-bold text-5xl mb-2 text-purple-900">
                   Learn. Share. Laugh. Grow.
                 </h1>
-                <p className="antialiased sm:subpixel-antialiased md:antialiased lg:subpixel-antialiased xl:antialiased text-lg">we strive to create an environment that helps childrens to learn and grow
+                <p className="  text-gray-500 antialiased sm:subpixel-antialiased md:antialiased lg:subpixel-antialiased xl:antialiased text-lg">we strive to create an environment that helps childrens to learn and grow
                   in the perfect launchpad to explore their creativity, learn more about the world around them and
                   develop skills that they will use throughout their life.</p>
+                  <button class="mt-5 bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 border-b-4 bg-indigo-400 hover:bg-indigo-300 rounded">
+MORE DETAILS</button>
           </div>
           <div className="flex-auto slide-image">
             <img className="float-right" src="/images/slider1.png" alt="spartankid"/>

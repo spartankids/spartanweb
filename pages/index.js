@@ -20,7 +20,7 @@ export default function Home() {
 <img className="w-full h-64" src="/images/kindergarden.jpg" alt="Sunset in the mountains" />
 <div className="px-6 py-4">
 <div className="font-bold text-xl mb-2">Day Care</div>
-<p className="text-gray-700 text-base">
+<p className=" text-gray-500 text-base">
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 </p>
 </div>
@@ -36,7 +36,7 @@ Years </span>
 <img className="w-full h-64" src="/images/preschool.jpg" alt="Sunset in the mountains" />
 <div className="px-6 py-4">
 <div className="font-bold text-xl mb-2">Pre School</div>
-<p className="text-gray-700 text-base">
+<p className=" text-gray-500 text-base">
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 </p>
 </div>
@@ -52,7 +52,7 @@ Years </span>
 <img className="w-full h-64" src="/images/summercamp.jpg" alt="Sunset in the mountains" />
 <div className="px-6 py-4">
 <div className="font-bold text-xl mb-2">Summer Camp & After School</div>
-<p className="text-gray-700 text-base">
+<p className="text-gray-500 text-base">
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 </p>
 </div>
@@ -77,7 +77,7 @@ Years </span>
 Our school gives its pupils the opportunity not only to develop themselves intellectually, aesthetically and physically, but also to find their direction in life, to receive a quality education.
 </p>
 </div>
-<div className="text-xl mt-6">
+<div className="text-xl mt-6 ">
 Every children have their own love language, we all have our unique learning style. This learning style
           continue with us into into adulthood.there is no right or wrong way to learning styles. we should strive to
           help children to find their own learning style. in spartan we reviewed different learning style that you will
@@ -93,7 +93,7 @@ Every children have their own love language, we all have our unique learning sty
     <div className="grid  md:grid-cols-2 p-12 md:px-24">
       <div>
         <h1 className="text-4xl font-bold text-purple-800">Our Mission</h1>
-        <p className="grid md:grid-cols-2 sm:grid-col">
+        <p className="grid md:grid-cols-2 sm:grid-col  text-gray-500">
         Find an individual approach to each child in accordance with their personal needs and their level of knowledge, cultural characteristics and interests of their families.
         </p>
         <div className="mt-5">
@@ -130,7 +130,7 @@ MORE DETAILS</button>
             </div>
             <div class="ml-4">
               <h4 class="text-lg leading-6 font-medium text-gray-900">Happy Environment</h4>
-              <p class="mt-2 text-base leading-6 ">
+              <p class="mt-2 text-base leading-6  text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </p>
             </div>
@@ -145,7 +145,7 @@ MORE DETAILS</button>
             </div>
             <div class="ml-4">
               <h4 class="text-lg leading-6 font-medium text-gray-900">Hygiene</h4>
-              <p class="mt-2 text-base leading-6 ">
+              <p class="mt-2 text-base leading-6  text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </p>
             </div>
