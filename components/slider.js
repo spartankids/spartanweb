@@ -25,7 +25,7 @@ export default function Slider() {
                 <p className="antialiased  text-gray-500 sm:subpixel-antialiased md:antialiased lg:subpixel-antialiased xl:antialiased text-lg">we strive to create an environment that helps childrens to learn and grow
                   in the perfect launchpad to explore their creativity, learn more about the world around them and
                   develop skills that they will use throughout their life.</p>
-                  <button class="mt-5 bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 border-b-4 bg-indigo-400 hover:bg-indigo-300 rounded">
+                  <button className="mt-5 bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 border-b-4 bg-indigo-400 hover:bg-indigo-300 rounded">
 MORE DETAILS</button>
           </div>
           <div className="flex-auto slide-image">
@@ -40,7 +40,7 @@ MORE DETAILS</button>
                 <p className="  text-gray-500 antialiased sm:subpixel-antialiased md:antialiased lg:subpixel-antialiased xl:antialiased text-lg">we strive to create an environment that helps childrens to learn and grow
                   in the perfect launchpad to explore their creativity, learn more about the world around them and
                   develop skills that they will use throughout their life.</p>
-                  <button class="mt-5 bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 border-b-4 bg-indigo-400 hover:bg-indigo-300 rounded">
+                  <button className="mt-5 bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 border-b-4 bg-indigo-400 hover:bg-indigo-300 rounded">
 MORE DETAILS</button>
           </div>
           <div className="flex-auto slide-image">

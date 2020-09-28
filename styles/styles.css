@@ -56,3 +56,8 @@
   background-color: #4542b9;
   color: #ffffff;
 }
+.footer-top {
+  box-shadow: inset 0px 11px 8px -10px rgba(1, 1, 1, 0.4);
+  padding:30px;
+  border-bottom: rgb(231, 206, 12) 2px inset;
+}

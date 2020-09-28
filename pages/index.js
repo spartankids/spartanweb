@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/navbar'
 import Slider from '../components/slider'
+import Footer from '../components/footer'
 export default function Home() {
   
   return (
@@ -97,7 +98,7 @@ Every children have their own love language, we all have our unique learning sty
         Find an individual approach to each child in accordance with their personal needs and their level of knowledge, cultural characteristics and interests of their families.
         </p>
         <div className="mt-5">
-        <button class="bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 border-b-4 bg-indigo-400 hover:bg-indigo-300 rounded">
+        <button className="bg-indigo-700 hover:bg-indigo-500 text-white font-bold py-2 px-4 border-b-4 bg-indigo-400 hover:bg-indigo-300 rounded">
 MORE DETAILS</button>
 </div>
       </div>
@@ -109,133 +110,133 @@ MORE DETAILS</button>
     </div>
 </div>
 
-<div class="py-12 bg-white">
-  <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="lg:text-center">
-      <h3 class="text-purple-800 mt-1 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+<div className="py-12 bg-white">
+  <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="lg:text-center">
+      <h3 className="text-purple-800 mt-1 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
       What Make Us Different
       </h3>
-      <p class="mt-4 max-w-2xl text-xl leading-7  lg:mx-auto">
+      <p className="mt-4 max-w-2xl text-xl leading-7  lg:mx-auto">
       Our unique principles, pro-active learning system and team values are fundamental in delivering exceptional success for our students.      </p>
     </div>
 
-    <div class="mt-10">
-      <ul class="md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+    <div className="mt-10">
+      <ul className="md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
         <li>
-          <div class="flex">
-            <div class="flex-shrink-0">
-              <div class="flex items-center justify-center h-32 w-32">
+          <div className="flex">
+            <div className="flex-shrink-0">
+              <div className="flex items-center justify-center h-32 w-32">
               <img className="" src="/images/smile.svg" alt="smile" />
               </div>
             </div>
-            <div class="ml-4">
-              <h4 class="text-lg leading-6 font-medium text-gray-900">Happy Environment</h4>
-              <p class="mt-2 text-base leading-6  text-gray-500">
+            <div className="ml-4">
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Happy Environment</h4>
+              <p className="mt-2 text-base leading-6  text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </p>
             </div>
           </div>
         </li>
-        <li class="mt-10 md:mt-0">
-          <div class="flex">
-            <div class="flex-shrink-0">
-            <div class="flex items-center justify-center h-32 w-32">
+        <li className="mt-10 md:mt-0">
+          <div className="flex">
+            <div className="flex-shrink-0">
+            <div className="flex items-center justify-center h-32 w-32">
               <img className="" src="/images/glove.svg" alt="glove" />
               </div>
             </div>
-            <div class="ml-4">
-              <h4 class="text-lg leading-6 font-medium text-gray-900">Hygiene</h4>
-              <p class="mt-2 text-base leading-6  text-gray-500">
+            <div className="ml-4">
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Hygiene</h4>
+              <p className="mt-2 text-base leading-6  text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </p>
             </div>
           </div>
         </li>
-        <li class="mt-10 md:mt-0">
-          <div class="flex">
-            <div class="flex-shrink-0">
-            <div class="flex items-center justify-center h-32 w-32">
+        <li className="mt-10 md:mt-0">
+          <div className="flex">
+            <div className="flex-shrink-0">
+            <div className="flex items-center justify-center h-32 w-32">
               <img className="" src="/images/cctv.svg" alt="cctv" />
               </div>
             </div>
-            <div class="ml-4">
-              <h4 class="text-lg leading-6 font-medium text-gray-900">Safety & Security</h4>
-              <p class="mt-2 text-base leading-6 text-gray-500">
+            <div className="ml-4">
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Safety & Security</h4>
+              <p className="mt-2 text-base leading-6 text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </p>
             </div>
           </div>
         </li>
-        <li class="mt-10 md:mt-0">
-          <div class="flex">
-            <div class="flex-shrink-0">
-            <div class="flex items-center justify-center h-32 w-32">
+        <li className="mt-10 md:mt-0">
+          <div className="flex">
+            <div className="flex-shrink-0">
+            <div className="flex items-center justify-center h-32 w-32">
               <img className="" src="/images/playground.svg" alt="playground" />
               </div>
             </div>
-            <div class="ml-4">
-              <h4 class="text-lg leading-6 font-medium text-gray-900">Play Area</h4>
-              <p class="mt-2 text-base leading-6 text-gray-500">
+            <div className="ml-4">
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Play Area</h4>
+              <p className="mt-2 text-base leading-6 text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </p>
             </div>
           </div>
         </li>
-        <li class="mt-10 md:mt-0">
-          <div class="flex">
-            <div class="flex-shrink-0">
-            <div class="flex items-center justify-center h-32 w-32">
+        <li className="mt-10 md:mt-0">
+          <div className="flex">
+            <div className="flex-shrink-0">
+            <div className="flex items-center justify-center h-32 w-32">
               <img className="" src="/images/blackboard.svg" alt="blackboard" />
               </div>
             </div>
-            <div class="ml-4">
-              <h4 class="text-lg leading-6 font-medium text-gray-900">Clean campus</h4>
-              <p class="mt-2 text-base leading-6 text-gray-500">
+            <div className="ml-4">
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Clean campus</h4>
+              <p className="mt-2 text-base leading-6 text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </p>
             </div>
           </div>
         </li>
-        <li class="mt-10 md:mt-0">
-          <div class="flex">
-            <div class="flex-shrink-0">
-            <div class="flex items-center justify-center h-32 w-32">
+        <li className="mt-10 md:mt-0">
+          <div className="flex">
+            <div className="flex-shrink-0">
+            <div className="flex items-center justify-center h-32 w-32">
               <img className="" src="/images/vocabulary.svg" alt="audiovisual" />
               </div>
             </div>
-            <div class="ml-4">
-              <h4 class="text-lg leading-6 font-medium text-gray-900">Audio & Visual Classroom</h4>
-              <p class="mt-2 text-base leading-6 text-gray-500">
+            <div className="ml-4">
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Audio & Visual Classroom</h4>
+              <p className="mt-2 text-base leading-6 text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </p>
             </div>
           </div>
         </li>
-        <li class="mt-10 md:mt-0">
-          <div class="flex">
-            <div class="flex-shrink-0">
-            <div class="flex items-center justify-center h-32 w-32">
+        <li className="mt-10 md:mt-0">
+          <div className="flex">
+            <div className="flex-shrink-0">
+            <div className="flex items-center justify-center h-32 w-32">
               <img className="" src="/images/hydro.svg" alt="hydro" />
               </div>
             </div>
-            <div class="ml-4">
-              <h4 class="text-lg leading-6 font-medium text-gray-900">Purified water</h4>
-              <p class="mt-2 text-base leading-6 text-gray-500">
+            <div className="ml-4">
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Purified water</h4>
+              <p className="mt-2 text-base leading-6 text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </p>
             </div>
           </div>
         </li>
-        <li class="mt-10 md:mt-0">
-          <div class="flex">
-            <div class="flex-shrink-0">
-            <div class="flex items-center justify-center h-32 w-32">
+        <li className="mt-10 md:mt-0">
+          <div className="flex">
+            <div className="flex-shrink-0">
+            <div className="flex items-center justify-center h-32 w-32">
               <img className="" src="/images/air-conditioner.svg" alt="airconditioner" />
               </div>
             </div>
-            <div class="ml-4">
-              <h4 class="text-lg leading-6 font-medium text-gray-900">Air Conditioned Classroom</h4>
-              <p class="mt-2 text-base leading-6 text-gray-500">
+            <div className="ml-4">
+              <h4 className="text-lg leading-6 font-medium text-gray-900">Air Conditioned Classroom</h4>
+              <p className="mt-2 text-base leading-6 text-gray-500">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.
               </p>
             </div>
@@ -246,30 +247,21 @@ MORE DETAILS</button>
   </div>
 </div>
 
-<div class="bg-gray-50">
-  <div class="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
-    <h2 class="text-3xl leading-9 text-indigo-600 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
+<div className="bg-gray-50">
+  <div className="max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+    <h2 className="text-3xl leading-9 text-purple-800 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
       Enroll your child with us.
     </h2>
-    <div class="mt-8 flex lg:flex-shrink-0 lg:mt-0 float-left">
-      <div class="inline-flex rounded-md shadow">
-        <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
+    <div className="mt-8 flex lg:flex-shrink-0 lg:mt-0 float-left">
+      <div className="inline-flex rounded-md shadow">
+        <a href="#" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out">
           GET IN TOUCH
         </a>
       </div>
     </div>
   </div>
 </div>
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
+    <Footer />
     </main>
   )
 }
