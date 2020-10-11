@@ -9,7 +9,8 @@ export default function Home() {
     <main>
       
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+      <title>Spartankids Pre-school & Day care</title>
+              <link rel="icon" href="/favicon.ico" />
       </Head>
     < Navbar />
     
