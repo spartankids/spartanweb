@@ -61,3 +61,8 @@
   padding:30px;
   border-bottom: rgb(231, 206, 12) 2px inset;
 }
+.pageheader {
+  height: 300px;
+  width: 100%;
+  background-image: url('/images/astro.png');
+}
