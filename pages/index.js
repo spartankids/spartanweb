@@ -9,7 +9,6 @@ export default function Home() {
     <main>
       
       <Head>
-        <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
     < Navbar />
