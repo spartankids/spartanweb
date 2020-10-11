@@ -11,6 +11,7 @@ class MyDocument extends Document {
         <Head>
             <meta name="viewport" content="width=device, initial-scale=1"/>
             <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
+            <title>Spartankids Pre-school & Day care</title>
             </Head>
         <body>
           <Main />
