@@ -49,7 +49,7 @@ function Navbar() {
           </li>
 
           <li className="block mb-4 lg:inline-block lg:mb-0 mr-4">
-            <a href="#responsive-header" className="text-gray-700 font-semibold hover:text-purple-900 transition">Programs</a>
+            <a href="programs" className="text-gray-700 font-semibold hover:text-purple-900 transition">Programs</a>
           </li>
 
           <li className="block mb-4 lg:inline-block lg:mb-0 mr-4">
